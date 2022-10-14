@@ -1,1 +1,55 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #05a60a;
+}
+
+#card {
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 5% auto;
+}
+
+#top-suit {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+}
+
+#number {
+  color: white;
+  font-size: 120px;
+  width: 120px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#bottom-suit {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: -15px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(-180deg);
+}
+
+#btn-new {
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.btn {
+  width: 150px;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+}
